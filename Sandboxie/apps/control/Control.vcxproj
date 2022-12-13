@@ -76,7 +76,7 @@
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Static</UseOfMfc>
     <UseOfAtl>false</UseOfAtl>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SbieRelease|ARM64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -168,6 +168,7 @@
       <MinimalRebuild />
       <PrecompiledHeader>Use</PrecompiledHeader>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <Link>
       <AdditionalDependencies>uafxcw.lib;common.lib;SbieDll.lib;ntdll.lib;psapi.lib;wininet.lib;winhttp.lib</AdditionalDependencies>
@@ -223,6 +224,7 @@
       <MinimalRebuild />
       <PrecompiledHeader>Use</PrecompiledHeader>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <Link>
       <AdditionalDependencies>uafxcw.lib;common.lib;SbieDll.lib;ntdll.lib;psapi.lib;wininet.lib;winhttp.lib</AdditionalDependencies>
