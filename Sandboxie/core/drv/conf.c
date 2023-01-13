@@ -195,7 +195,7 @@ _FX void Conf_AdjustUseCount(BOOLEAN increase)
 _FX NTSTATUS Conf_Read(ULONG session_id)
 {
     static const WCHAR *path_sandboxie = L"%s\\" SANDBOXIE_INI;
-    static const WCHAR *path_templates = L"%s\\Templates.ini";
+    static const WCHAR *path_templates = L"%s\\GcsTemplates.ini";
     static const WCHAR *SystemRoot = L"\\SystemRoot";
     NTSTATUS status;
     CONF_DATA data;

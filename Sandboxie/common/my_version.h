@@ -35,7 +35,7 @@
 #define MY_COPYRIGHT_STRING     "Copyright 2020-2022 by David Xanatos (xanasoft.com)"
 #define MY_COPYRIGHT_STRING_OLD "Copyright 2004-2020 by Sandboxie Holdings, LLC"
 
-#define SANDBOXIE               L"Sandboxie"
+#define SANDBOXIE               L"GcsSandboxie"
 #define SBIE                    L"SBIE"
 
 #define SANDBOXIE_USER			L"Sandboxie"
@@ -43,28 +43,28 @@
 #define SBIE_BOXED_             SBIE L"_BOXED_"
 #define SBIE_BOXED_LEN          (4 + 7)
 
-#define SANDBOXIE_INI           L"Sandboxie.ini"
+#define SANDBOXIE_INI           L"GcsSandboxie.ini"
 
-#define SBIEDRV                 L"SbieDrv"
-#define SBIEDRV_SYS             L"SbieDrv.sys"
+#define SBIEDRV                 L"GcsSbieDrv"
+#define SBIEDRV_SYS             L"GcsSbieDrv.sys"
 
-#define SBIESVC                 L"SbieSvc"
-#define SBIESVC_EXE             L"SbieSvc.exe"
+#define SBIESVC                 L"GcsSbieSvc"
+#define SBIESVC_EXE             L"GcsSbieSvc.exe"
 
 #define SANDBOXIE_CONTROL       L"SandboxieControl"
-#define SBIECTRL_EXE            L"SbieCtrl.exe"
+#define SBIECTRL_EXE            L"GcsSbieCtrl.exe"
 #define SBIECTRL_               L"SbieCtrl_"
 
-#define START_EXE               L"Start.exe"
+#define START_EXE               L"GcsStart.exe"
 
 // see also environment variable in session.bat
-#define SBIEDLL                 L"SbieDll"
+#define SBIEDLL                 L"GcsSbieDll"
 
-#define SBIEMSG_DLL             L"SbieMsg.dll"
+#define SBIEMSG_DLL             L"GcsSbieMsg.dll"
 #define SBIE_IN_MSGS            L"SBIE"
 
-#define SBIEINI                 L"SbieIni"
-#define SBIEINI_EXE             L"SbieIni.exe"
+#define SBIEINI                 L"GcsSbieIni"
+#define SBIEINI_EXE             L"GcsSbieIni.exe"
 
 #define SANDBOX_VERB            L"sandbox"
 
